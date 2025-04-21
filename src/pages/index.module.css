@@ -1,7 +1,12 @@
-.h1 {
-  color: red;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.h2 {
-  color: blue;
+.container h3 {
+  margin-bottom: 0px;
 }
+
+/*  .container h3 -> 모든 하위 요소 중에 h3를 선택해. */
+/*  .container > h3 -> 직계 자식인 h3만 선택*/
